@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #F8F9FA;
+}
+
+form {
+  background-color: rgb(243, 243, 243);
+  padding: 30px 0;
+  box-shadow: 1px 8px 10px -3px #ccc;
+}
+
+label {
+  font-size: 12px;
+  padding-top: 25px;
+}
+
+button {
+  padding: 15px 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #deb46b;
+}
+
+input {
+  padding: 3px 5px;
+  border: 1px solid #c19447;
+  border-radius: 3px;
+  width: 280px;
+  height: 30px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 0px #c19447;
+}
+
+button:hover {
+  background-color: #c19447;
+  box-shadow: 2px 4px 2px #bbb
+}
+
+button:active {
+  background-color: #8f713d;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.img-container {
+  height: 100%;
+  background: url("./img/bg-erick-mclean.jpg") center/cover no-repeat;
+  width: 80vw;
+}
+
+.img-container div{
+  position: relative;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+  padding: 40px 0;
+  font-size: 38px;
+  background-color: rgba(0, 0, 0, .4);
+  color: #eee;
+}
+
+
+.img-container img {
+  position: absolute;
+  top: 30px;
+  right: 450px;
+  width: 60px;
+  filter: invert(1);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-text {
+  padding-right: 10px;
+  padding-top: 80px;
+}
+
+.main-submit, .main-submit .log-in {
+  padding-top: 30px;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: rgb(68, 68, 255);
+}
+
+.main-text p {
+  padding-right: 15px;
+  font-size: 24px;
+}
+
+.main-text p:nth-child(2) {
+  padding: 25px 0;
+}
+
+form .form-controls, .controls-group-1, .controls-group-2 {
+  display: flex;
+}
+
+.main-text, .main-submit, .form-controls, h2 {
+  padding-left: 50px;
+}
+
+.controls-group-1, .controls-group-2 {
+  flex-direction: column;
+  margin-right: 75px;
+}
+
