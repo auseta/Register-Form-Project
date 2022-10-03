@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="img-container">
+      <div>
+        <img src="./img/leaf.png" alt="leaf">
+        Feel the Nature
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main-text">
+        <p> This is not a real online service! You know you need something like this in your life to help you realize
+          you deepest dreams.
+          Sign up <em>now</em> to get started.</p>
+
+        <p>You <em>know</em> you want to.</p>
+      </div>
+
+      <form id="main-form">
+        <h2>Let's do this!</h2>
+        <div class="form-controls">
+          <div class="controls-group-1">
+            <label for="first-name">
+              FIRST NAME
+            </label>
+            <input type="text" id="first-name" name="user-first-name" placeholder="ej: John" required>
+            <label for="email">
+              EMAIL
+            </label>
+            <input type="email" name="usermail" id="email" placeholder="you@example.com" required>
+            <label for="password">
+              PASSWORD
+            </label>
+            <input type="password" name="userpassword" id="password" required>
+          </div>
+          <div class="controls-group-2">
+            <label for="last-name" id="main-form">
+              LAST NAME
+            </label>
+            <input type="text" name="user-last-name" id="last-name" placeholder="ej: Doe" required>
+            <label for="phone-number">
+              PHONE NUMBER
+            </label>
+            <input type="tel" name="user-phone-number" id="phone-number" placeholder="(xxx)-xxx-xxxx" required>
+            <label for="confirm-password">
+              CONFIRM PASSWORD
+            </label>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+          </div>
+        </div>
+      </form>
+
+      <div class="main-submit">
+        <button type="submit" form="main-form">Create Account</button>
+        <div class="log-in">Already have an account? <a href="#">Log in</a></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
