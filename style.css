@@ -63,7 +63,7 @@ button:active {
 
 .img-container {
   height: 100%;
-  background: url("./img/bg-erick-mclean.jpg") center/cover no-repeat;
+  background: url("./img/bg-erick-mclean.jpg") center/610px no-repeat;
   width: 80vw;
 }
 
